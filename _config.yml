@@ -106,10 +106,10 @@ content:
         description: | # this will include new lines to allow paragraphs
           The University of Belize allowed me to experience, for the first time, an international and multicultural environment with a rich cultural exchange. This exposure broadened my understanding of the world and equipped me with skills to navigate and overcome language and communication barriers.
 
-    # --------------------------------------------#
-    # >>> P O S T D O C   E X P E R I E N C E <<< #
-    # --------------------------------------------#
-  - title: Postdoctoral experience # Title for the section
+    # ----------------------------#
+    # >>> E X P E R I E N C E <<< #
+    # ----------------------------#
+  - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -126,23 +126,57 @@ content:
             - *Supervisor:* [Prof. Matthew Hague.](https://www.cs.rhul.ac.uk/home/uxac009/)
             - *Project:* String Constraint Solving with Real-World Regular Expressions.
             - *Supported by:* The Engineering and Physical Sciences Research Council, EPSRC [EP/T00021X/1].
+            
+      - layout: left
+        title: The Artificial Intelligence Consortium of CONACYT Public Centers
+        sub_title: Research Associate
+        caption: 2019 - 2019
+        
+      - layout: left
+        title: CICESE Research Center
+        sub_title: PhD in Computer Science
+        caption: 2015 - 2018
+        description: | # this will include new lines to allow paragraphs
+          This project addresses the problem of finding a 2-packing set in some planar graphs in polynomial time, in both centralized and distributed environments. The main result is a parameterized algorithm that computes a maximum 2-packing set on a 1-outerplanar graph in linear time.
+          
+          - *Project:* Feasibility study to solve the maximum 2-packing set problem in polynomial time in outerplanar graphs (translated from Spanish)
+          - *Supported by:* CONACYT, National Scholarship for doctoral studies, Mexico
+        
+      - layout: left
+        title: CICESE Research Center
+        sub_title: MSc in Computer Science
+        caption: 2012 - 2014
+        description: | # this will include new lines to allow paragraphs
+          This work presents an approach to find a maximum 2-packing set in a cactus graph. The main result is an algorithm that decomposes the input graph into biconnected components to form a tree, then it solves each component individually and merges partial solutions to find such a set.
+          
+          - *Project:* An algorithm to find a maximum 2-packing set in a cactus graph (translated from Spanish)
+          - *Supported by:* CONACYT, National Scholarship for master’s studies, Mexico
+
+      - layout: left
+        title: Teaching and mentoring
+        sub_title: Undergraduate and Masters' level
+        description: | # this will include new lines to allow paragraphs
+          - <mark>2022-2022</mark> Royal Holloway, University of London. United Kingdom.
+          - <mark>2016-2019</mark> CICESE Research Center. Mexico.
+          - <mark>2010-2012</mark> CASE-UAZ. The Student Learning Services Center, The Autonomous University of Zacatecas, Mexico.
+
     
     # ----------------------------#
     # >>> E X P E R I E N C E <<< #
     # ----------------------------#
-  - title: Experience
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      ## **Research:**
-      - <mark>2020-2023</mark> *Postdoctoral research assistant*. Department of Computer Science, Royal Holloway, University of London, Centre for Programming Languages and Systems. United Kingdom.
-      - <mark>2019-2019</mark> *Research associate*. The Artificial Intelligence Consortium of CONACYT Public Centers, CICESE Research Center. Mexico.
-      - <mark>2015-2018</mark> *PhD in Computer Science*, CICESE Research Center, Ensenada, Baja California, Mexico.
-      - <mark>2012-2014</mark> *MSc in Computer Science*, CICESE Research Center, Ensenada, Baja California, Mexico.
+  # - title: Experience
+    # layout: text
+    # content: | # this will include new lines to allow paragraphs
+      # ## **Research:**
+      # - <mark>2020-2023</mark> *Postdoctoral research assistant*. Department of Computer Science, Royal Holloway, University of London, Centre for Programming Languages and Systems. United Kingdom.
+      # - <mark>2019-2019</mark> *Research associate*. The Artificial Intelligence Consortium of CONACYT Public Centers, CICESE Research Center. Mexico.
+      # - <mark>2015-2018</mark> *PhD in Computer Science*, CICESE Research Center, Ensenada, Baja California, Mexico.
+      # - <mark>2012-2014</mark> *MSc in Computer Science*, CICESE Research Center, Ensenada, Baja California, Mexico.
       
-      ## **Teaching and mentoring** (undergraduate and masters' level)
-      - <mark>2022-2022</mark> Royal Holloway, University of London. United Kingdom.
-      - <mark>2016-2019</mark> CICESE Research Center. Mexico.
-      - <mark>2010-2012</mark> CASE-UAZ. The Student Learning Services Center, The Autonomous University of Zacatecas, Mexico.
+      # ## **Teaching and mentoring** (undergraduate and masters' level)
+      # - <mark>2022-2022</mark> Royal Holloway, University of London. United Kingdom.
+      # - <mark>2016-2019</mark> CICESE Research Center. Mexico.
+      # - <mark>2010-2012</mark> CASE-UAZ. The Student Learning Services Center, The Autonomous University of Zacatecas, Mexico.
     
     
     # ------------------------#
