@@ -183,7 +183,75 @@ content:
         description: | # this will include new lines to allow paragraphs
           This project involves a brief report on regular expressions (regex) within the [NPM package manager](https://www.npmjs.com/) for [JavaScript](https://www.javascript.com/). To extract the data, we developed a [Ruby](https://www.ruby-lang.org/en/) script called 'RegexFinder.rb'. The input can be either the NPM installation directory or a set of JavaScript files, and the output includes details about regex usage. The information is displayed on the screen and can be saved as markdown or PDF files.
     
+    # --------------------------------#
+    # >>> P U B L I C A T I O N S <<< #
+    # --------------------------------#
     
+  - title: Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        # border: weak
+        title: Journal
+        sub_title: In preparation
+        # caption: item
+        # link: item
+        # quote: >
+        #   item
+        description: | # this will include new lines to allow paragraphs
+          José Alberto Fernández-Zepeda, **Alejandro Flores-Lamas**, Tadeo Alán Gutiérrez-Medina and Joel Antonio Trejo-Sánchez. *"A simple algorithm for decomposing geometric Halin graphs"*.  **2023**. *In preparation, to be submitted to*: [**Journal of Parallel and Distributed Computing.**](https://www.sciencedirect.com/journal/journal-of-parallel-and-distributed-computing)
+
+      - layout: left
+        # border: weak
+        title: Brief announcement
+        sub_title: Submitted
+        # caption: item
+        # link: item
+        # quote: >
+        #   item
+        description: | # this will include new lines to allow paragraphs
+          José Alberto Fernández-Zepeda, **Alejandro Flores-Lamas**, Candelaria E. Sansores-Pérez and Joel Antonio Trejo-Sánchez. *"Distributed approximation algorithm for the hub cover problem"*.  **2023**. *Submitted to:* [**The International Symposium on Distributed Computing (DISC).**](http://www.disc-conference.org/wp/disc2023/)
+
+      - layout: left
+        # border: weak
+        title: Journal
+        sub_title: Submitted
+        # caption: item
+        # link: item
+        # quote: >
+        #   item
+        description: | # this will include new lines to allow paragraphs
+          José Alberto Fernández-Zepeda, **Alejandro Flores-Lamas**, Matthew Hague and Joel Antonio Trejo-Sánchez. *"A dynamic programming algorithm for a maximum s-clique set on trees*. **2023**. *Submitted to:* [**Discrete Applied Mathematics.**](https://www.sciencedirect.com/journal/discrete-applied-mathematics)
+      
+      - layout: left
+        title: Journal
+        description: | # this will include new lines to allow paragraphs
+          Joel Antonio Trejo-Sánchez, Francisco A. Madera-Ramírez, José Alberto Fernández-Zepeda, José Luis López-Martínez and **Alejandro Flores-Lamas** . *"A fast approximation algorithm for the maximum 2-packing set problem on planar graphs"*.  **2022**. *Available at*: [**Optimization Letters**](https://link.springer.com/article/10.1007/s11590-022-01939-w)
+
+      - layout: left
+        title: Proceedings
+        description: | # this will include new lines to allow paragraphs
+          Taolue Chen, **Alejandro Flores-Lamas**, Matthew Hague, Zhilei Han, Denghang Hu, Shuanglong Kan, Anthony W. Lin, Philipp Rümmer and Zhilin Wu. *"Solving string constraints with Regex-dependent functions through transducers with priorities and variables"*.  **2022**. *Available at*: [**Proceedings of the ACM on Programming Languages Vol. 6, Issue. POPL**](https://dl.acm.org/doi/abs/10.1145/3498707)
+
+      - layout: left
+        title: Journal
+        description: | # this will include new lines to allow paragraphs
+          **Alejandro Flores-Lamas**, José Alberto Fernández-Zepeda and Joel Antonio Trejo-Sánchez. *"A distributed algorithm for a maximal 2-packing set on Halin graphs"*.  **2020**. *Available at*: [**Journal of Parallel and Distributed Computing**](https://www.sciencedirect.com/science/article/abs/pii/S0743731519304459)
+
+      - layout: left
+        title: Doctoral thesis
+        description: | # this will include new lines to allow paragraphs
+          **Alejandro Flores-Lamas**. *"Estudio de factibilidad para resolver el problema 2-packing máximo en tiempo polinomial en grafos outerplanares"* (*"Feasibility study to solve the maximum 2-packing problem in polynomial time in outerplanar graphs"*, translated from Spanish), Doctoral dissertation.  **2018**. *Available at*: [**Biblioteca CICESE**, in Spanish.](https://biblioteca.cicese.mx/catalogo/tesis/ficha.php?id=25279)]
+      
+      - layout: left
+        title: Proceedings
+        description: | # this will include new lines to allow paragraphs
+          Joel Antonio Trejo-Sánchez, Andrés Vela-Navarro, **Alejandro Flores-Lamas**, José Luis López-Martínez, Carlos Bermejo-Sabbagh and Nora Leticia Cuevas-Cuevas. *"Fast random cactus generation"*. **2018**. *Available at*: [**International Conference on Supercomputing in Mexico, ISUM 2018**](https://link.springer.com/chapter/10.1007/978-3-030-10448-1_12)
+
+      - layout: left
+        title: Journal
+        description: | # this will include new lines to allow paragraphs
+          **Alejandro Flores-Lamas**, José Alberto Fernández-Zepeda and Joel Antonio Trejo-Sánchez. *"Algorithm to find a maximum 2-packing set in a cactus"*. **2018**. *Available at*: [**Theoretical Computer Science**](https://www.sciencedirect.com/science/article/pii/S0304397517308605)
     # ----------------------------#
     # >>> E X T R A   I N F O <<< #
     # ----------------------------#
