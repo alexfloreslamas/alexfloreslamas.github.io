@@ -174,7 +174,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: A dynamic programming algorithm for a maximum <i>s</i>-clique set on trees
+        title: A dynamic programming algorithm for a maximum $s$-clique set on trees
         link: https://alexfloreslamas.github.io/maximum-s-clique-set-on-trees.io/
         # link_text: https://alexfloreslamas.github.io/maximum-s-clique-set-on-trees.io/
         additional_links:
@@ -187,7 +187,7 @@ content:
         # quote: >
         #   This is ...
         description: | # this will include new lines to allow paragraphs
-          Clique finding in networks is a fundamental problem graph problem. To overcome the limitations of strict cliques, a relaxed version called *s*-cliques is studied. The *s*-clique allows for greater flexibility in modelling relationships such as social concepts. Finding the largest *s*-clique in an arbitrary graph is computationally challenging. Here we propose a dynamic programming algorithm that efficiently solves such a problem on an *n*-vertex tree in *O*(*s⋅n*) time for *s*≥ 2, outperforming existing methods. This advancement paves the way for finding maximum *s*-cliques in less restrictive graphs. We use [Python](https://www.python.org/), [Pandas](https://pandas.pydata.org/), [YAML](https://yaml.org/) and [NetworkX](https://networkx.org/) for the project's scripts. We also provide a small set of artificial and real trees (along with corresponding credits) for experimentation.
+          Clique finding in networks is a fundamental problem graph problem. To overcome the limitations of strict cliques, a relaxed version called $s$-clique is studied. The $s$-clique allows for greater flexibility in modelling relationships such as social concepts. Finding the largest $s$-clique in an arbitrary graph is computationally challenging. Here we propose a dynamic programming algorithm that efficiently solves such a problem on an $n$-vertex tree in $O(s \cdot n)$ time for $s \geq 2$, outperforming existing methods. This advancement paves the way for finding maximum $s$-cliques in less restrictive graphs. We use [Python](https://www.python.org/), [Pandas](https://pandas.pydata.org/), [YAML](https://yaml.org/) and [NetworkX](https://networkx.org/) for the project's scripts. We also provide a small set of artificial and real trees (along with corresponding credits) for experimentation.
 
       - layout: top-middle
         title: RegexFinder (Draft)
