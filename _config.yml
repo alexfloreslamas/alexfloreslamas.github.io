@@ -128,9 +128,14 @@ content:
             - *Supported by:* The Engineering and Physical Sciences Research Council, EPSRC [EP/T00021X/1].
             
       - layout: left
-        title: The Artificial Intelligence Consortium of CONACYT Public Centers
+        title: Artificial Intelligence Consortium
         sub_title: Research Associate
         caption: 2019 - 2019
+        description: | # this will include new lines to allow paragraphs
+          The primary objective of the CONACYT Public Centers' Artificial Intelligence Consortium is to foster the development of highly skilled professionals in the field of Artificial Intelligence through applied research. The Consortium emphasises key areas such as urban mobility, healthcare, environmental risks, and mathematics for advancing Artificial Intelligence.
+          
+          - *Project:* Algorithms for Artificial Intelligence
+          - *Supported by:* The Artificial Intelligence Consortium of CONACYT Public Centers, Mexico
         
       - layout: left
         title: CICESE Research Center
@@ -156,33 +161,16 @@ content:
         title: Teaching and mentoring
         sub_title: Undergraduate and Masters' level
         description: | # this will include new lines to allow paragraphs
-          - <mark>2022-2022</mark> Royal Holloway, University of London. United Kingdom.
+          - <mark>2021-2022</mark> Royal Holloway, University of London. United Kingdom.
+          - <mark>2022-2022</mark> CICESE Research Center (online co-teaching). Mexico.
           - <mark>2016-2019</mark> CICESE Research Center. Mexico.
           - <mark>2010-2012</mark> CASE-UAZ. The Student Learning Services Center, The Autonomous University of Zacatecas, Mexico.
-
-    
-    # ----------------------------#
-    # >>> E X P E R I E N C E <<< #
-    # ----------------------------#
-  # - title: Experience
-    # layout: text
-    # content: | # this will include new lines to allow paragraphs
-      # ## **Research:**
-      # - <mark>2020-2023</mark> *Postdoctoral research assistant*. Department of Computer Science, Royal Holloway, University of London, Centre for Programming Languages and Systems. United Kingdom.
-      # - <mark>2019-2019</mark> *Research associate*. The Artificial Intelligence Consortium of CONACYT Public Centers, CICESE Research Center. Mexico.
-      # - <mark>2015-2018</mark> *PhD in Computer Science*, CICESE Research Center, Ensenada, Baja California, Mexico.
-      # - <mark>2012-2014</mark> *MSc in Computer Science*, CICESE Research Center, Ensenada, Baja California, Mexico.
-      
-      # ## **Teaching and mentoring** (undergraduate and masters' level)
-      # - <mark>2022-2022</mark> Royal Holloway, University of London. United Kingdom.
-      # - <mark>2016-2019</mark> CICESE Research Center. Mexico.
-      # - <mark>2010-2012</mark> CASE-UAZ. The Student Learning Services Center, The Autonomous University of Zacatecas, Mexico.
     
     
-    # ------------------------#
-    # >>> P R O J E C T S <<< #
-    # ------------------------#
-  - title: Projects # Title for the section
+    # --------------------------------------------#
+    # >>> P R O J E C T S  &  M A T E R I A L <<< #
+    # --------------------------------------------#
+  - title: Projects & Material # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
@@ -216,6 +204,12 @@ content:
         #   This is ...
         description: | # this will include new lines to allow paragraphs
           This project involves a brief report on regular expressions (regex) within the [NPM package manager](https://www.npmjs.com/) for [JavaScript](https://www.javascript.com/). To extract the data, we developed a [Ruby](https://www.ruby-lang.org/en/) script called 'RegexFinder.rb'. The input can be either the NPM installation directory or a set of JavaScript files, and the output includes details about regex usage. The information is displayed on the screen and can be saved as markdown or PDF files.
+
+      - layout: top-middle
+        title: Plantilla de tesis.tex
+        link: https://biblioteca.cicese.mx/
+        description: | # this will include new lines to allow paragraphs
+          I was also briefly involved in creating CICESE's thesis template. See CICESE's [library webpage](https://biblioteca.cicese.mx/) and the README_Plantilla.txt file for more information.
     
     # --------------------------------#
     # >>> P U B L I C A T I O N S <<< #
@@ -290,16 +284,28 @@ content:
     # >>> E X T R A   I N F O <<< #
     # ----------------------------#
 
-  # - title: A Little More About Me
-  #   layout: text
-  #   content: | # this will include new lines to allow paragraphs
-  #     Alongside my interests in ... some of my other interests and hobbies are:
-  #     - item 
-  #     - item
-  #     - item
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - <img src="./images/location.png"  width="25" height="25"> Mexico
+      
+      - <img src="./images/languages.png"  width="25" height="25">
+        - Spanish, Mother tongue
+        - English, C1. IELTS, 01 Feb 2020
+        - German and French, Basic words and phrases only
+        - I am willing to put in the time and effort required to learn a new language. 
+      
+      - <img src="./images/volunteer.png"  width="17" height="25"> In the past, I was actively involved in various volunteering endeavours:
+        - <mark>2016-2018</mark> CICESE Open House
+        - <mark>2007-2012</mark> Zacatecas International Folklore Festival "Gustavo Vaquera Contreras"
+        - <mark>2009</mark> International year of astronomy
+        - <mark>2004, 2005, 2012</mark> Good Vision to Learn Better
+        - <mark>2004-2005</mark> SEMARNAT, Secretariat of Environment and Natural Resources, Mexico
+        - <mark>2003-2005</mark> Zacatecas Food bank
+        - <mark>2005</mark> Zacatecas Street Theater Festival
 
-  #     Look at this cool image
-  #     ![Trees](./images/landscape-trees.jpg "Trees")
+    # Look at this cool image
+    # ![Trees](./images/landscape-trees.jpg "Trees")
     
     
     # ----------------------#
