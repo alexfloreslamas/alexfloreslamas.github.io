@@ -209,7 +209,12 @@ content:
         title: Plantilla de tesis.tex
         link: https://biblioteca.cicese.mx/
         description: | # this will include new lines to allow paragraphs
-          I was also briefly involved in creating CICESE's thesis template. See CICESE's [library webpage](https://biblioteca.cicese.mx/) and the README_Plantilla.txt file for more information.
+          I was also briefly involved in creating CICESE's $\LaTeX$ thesis template. See CICESE's [library webpage](https://biblioteca.cicese.mx/) and the README_Plantilla.txt file for more information.
+          - $$s^2$$
+          - $s^2$
+          - \[s^2\]
+          
+          
     
     # --------------------------------#
     # >>> P U B L I C A T I O N S <<< #
@@ -287,22 +292,24 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - <img src="./images/location.png"  width="25" height="25"> Mexico
+      <img src="./images/location.png"  width="25" height="25"> *Mexico*
       
-      - <img src="./images/languages.png"  width="25" height="25">
-        - Spanish, Mother tongue
-        - English, C1. IELTS, 01 Feb 2020
-        - German and French, Basic words and phrases only
-        - I am willing to put in the time and effort required to learn a new language. 
+
+      <img src="./images/languages.png"  width="25" height="25">
+      - *Spanish*, Mother tongue
+      - *English*, C1. IELTS, 01 Feb 2020
+      - *German* and *French*, Basic words and phrases only
+      - I am willing to put in the time and effort required to learn a new language. 
       
-      - <img src="./images/volunteer.png"  width="17" height="25"> In the past, I was actively involved in various volunteering endeavours:
-        - <mark>2016-2018</mark> CICESE Open House
-        - <mark>2007-2012</mark> Zacatecas International Folklore Festival "Gustavo Vaquera Contreras"
-        - <mark>2009</mark> International year of astronomy
-        - <mark>2004, 2005, 2012</mark> Good Vision to Learn Better
-        - <mark>2004-2005</mark> SEMARNAT, Secretariat of Environment and Natural Resources, Mexico
-        - <mark>2003-2005</mark> Zacatecas Food bank
-        - <mark>2005</mark> Zacatecas Street Theater Festival
+
+      <img src="./images/volunteer.png"  width="17" height="25"> In the past, I was actively involved in various volunteering endeavours:
+      - <mark>2016-2018</mark> CICESE Open House
+      - <mark>2007-2012</mark> Zacatecas International Folklore Festival "Gustavo Vaquera Contreras"
+      - <mark>2009</mark> International year of astronomy
+      - <mark>2004, 2005, 2012</mark> Good Vision to Learn Better
+      - <mark>2004-2005</mark> SEMARNAT, Secretariat of Environment and Natural Resources, Mexico
+      - <mark>2003-2005</mark> Zacatecas Food bank
+      - <mark>2005</mark> Zacatecas Street Theater Festival
 
     # Look at this cool image
     # ![Trees](./images/landscape-trees.jpg "Trees")
