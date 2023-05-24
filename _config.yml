@@ -50,7 +50,7 @@ orcid_username: 0000-0002-9637-2049
 about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hello, I'm Alejandro, a PhD in Computer Science. My research focuses on analysing and designing <mark>algorithms for graphs</mark>, with a recent interest in <mark>approximation algorithms</mark> and <mark>parameterised complexity</mark>. I am also involved in studying <mark>string constraint algorithms</mark>.
+  Hello, I'm Alejandro, a PhD in Computer Science. My research focuses on analysing and designing <mark>algorithms for graphs</mark>, with a recent interest in<mark>approximation algorithms</mark> and <mark>parameterised complexity</mark>. I am also involved in studying <mark>string constraint algorithms</mark>.
 
 content:
     # --------------------------#
@@ -142,9 +142,9 @@ content:
         sub_title: PhD in Computer Science
         caption: 2015 - 2018
         description: | # this will include new lines to allow paragraphs
-          This project addresses the problem of finding a 2-packing set in some planar graphs in polynomial time, in both centralized and distributed environments. The main result is a parameterized algorithm that computes a maximum 2-packing set on a 1-outerplanar graph in linear time.
+          This project addresses the problem of finding a $2$-packing set in some planar graphs in polynomial time, in both centralized and distributed environments. The main result is a parameterized algorithm that computes a maximum $2$-packing set on a 1-outerplanar graph in linear time.
           
-          - *Project:* Feasibility study to solve the maximum 2-packing set problem in polynomial time in outerplanar graphs (translated from Spanish)
+          - *Project:* Feasibility study to solve the maximum $2$-packing set problem in polynomial time in outerplanar graphs (translated from Spanish)
           - *Supported by:* CONACYT, National Scholarship for doctoral studies, Mexico
         
       - layout: left
@@ -152,9 +152,9 @@ content:
         sub_title: MSc in Computer Science
         caption: 2012 - 2014
         description: | # this will include new lines to allow paragraphs
-          This work presents an approach to find a maximum 2-packing set in a cactus graph. The main result is an algorithm that decomposes the input graph into biconnected components to form a tree, then it solves each component individually and merges partial solutions to find such a set.
+          This work presents an approach to find a maximum $2$-packing set in a cactus graph. The main result is an algorithm that decomposes the input graph into biconnected components to form a tree, then it solves each component individually and merges partial solutions to find such a set.
           
-          - *Project:* An algorithm to find a maximum 2-packing set in a cactus graph (translated from Spanish)
+          - *Project:* An algorithm to find a maximum $2$-packing set in a cactus graph (translated from Spanish)
           - *Supported by:* CONACYT, National Scholarship for master’s studies, Mexico
 
       - layout: left
@@ -210,9 +210,6 @@ content:
         link: https://biblioteca.cicese.mx/
         description: | # this will include new lines to allow paragraphs
           I was also briefly involved in creating CICESE's $\LaTeX$ thesis template. See CICESE's [library webpage](https://biblioteca.cicese.mx/) and the README_Plantilla.txt file for more information.
-          - $$s^2$$
-          - $s^2$
-          - \[s^2\]
           
           
     
@@ -254,12 +251,12 @@ content:
         # quote: >
         #   item
         description: | # this will include new lines to allow paragraphs
-          José Alberto Fernández-Zepeda, **Alejandro Flores-Lamas**, Matthew Hague and Joel Antonio Trejo-Sánchez. *"A dynamic programming algorithm for a maximum s-clique set on trees*. **2023**. *Submitted to:* [**Discrete Applied Mathematics.**](https://www.sciencedirect.com/journal/discrete-applied-mathematics)
+          José Alberto Fernández-Zepeda, **Alejandro Flores-Lamas**, Matthew Hague and Joel Antonio Trejo-Sánchez. *"A dynamic programming algorithm for a maximum $s$-clique set on trees*. **2023**. *Submitted to:* [**Discrete Applied Mathematics.**](https://www.sciencedirect.com/journal/discrete-applied-mathematics)
       
       - layout: left
         title: Journal
         description: | # this will include new lines to allow paragraphs
-          Joel Antonio Trejo-Sánchez, Francisco A. Madera-Ramírez, José Alberto Fernández-Zepeda, José Luis López-Martínez and **Alejandro Flores-Lamas** . *"A fast approximation algorithm for the maximum 2-packing set problem on planar graphs"*.  **2022**. *Available at*: [**Optimization Letters**](https://link.springer.com/article/10.1007/s11590-022-01939-w)
+          Joel Antonio Trejo-Sánchez, Francisco A. Madera-Ramírez, José Alberto Fernández-Zepeda, José Luis López-Martínez and **Alejandro Flores-Lamas** . *"A fast approximation algorithm for the maximum $2$-packing set problem on planar graphs"*.  **2022**. *Available at*: [**Optimization Letters**](https://link.springer.com/article/10.1007/s11590-022-01939-w)
 
       - layout: left
         title: Proceedings
@@ -269,12 +266,12 @@ content:
       - layout: left
         title: Journal
         description: | # this will include new lines to allow paragraphs
-          **Alejandro Flores-Lamas**, José Alberto Fernández-Zepeda and Joel Antonio Trejo-Sánchez. *"A distributed algorithm for a maximal 2-packing set on Halin graphs"*.  **2020**. *Available at*: [**Journal of Parallel and Distributed Computing**](https://www.sciencedirect.com/science/article/abs/pii/S0743731519304459)
+          **Alejandro Flores-Lamas**, José Alberto Fernández-Zepeda and Joel Antonio Trejo-Sánchez. *"A distributed algorithm for a maximal $2$-packing set on Halin graphs"*.  **2020**. *Available at*: [**Journal of Parallel and Distributed Computing**](https://www.sciencedirect.com/science/article/abs/pii/S0743731519304459)
 
       - layout: left
         title: Doctoral thesis
         description: | # this will include new lines to allow paragraphs
-          **Alejandro Flores-Lamas**. *"Estudio de factibilidad para resolver el problema 2-packing máximo en tiempo polinomial en grafos outerplanares"* (*"Feasibility study to solve the maximum 2-packing problem in polynomial time in outerplanar graphs"*, translated from Spanish), Doctoral dissertation.  **2018**. *Available at*: [**Biblioteca CICESE**, in Spanish.](https://biblioteca.cicese.mx/catalogo/tesis/ficha.php?id=25279)]
+          **Alejandro Flores-Lamas**. *"Estudio de factibilidad para resolver el problema $2$-packing máximo en tiempo polinomial en grafos outerplanares"* (*"Feasibility study to solve the maximum $2$-packing problem in polynomial time in outerplanar graphs"*, translated from Spanish), Doctoral dissertation.  **2018**. *Available at*: [**Biblioteca CICESE**, in Spanish.](https://biblioteca.cicese.mx/catalogo/tesis/ficha.php?id=25279)]
       
       - layout: left
         title: Proceedings
@@ -284,7 +281,7 @@ content:
       - layout: left
         title: Journal
         description: | # this will include new lines to allow paragraphs
-          **Alejandro Flores-Lamas**, José Alberto Fernández-Zepeda and Joel Antonio Trejo-Sánchez. *"Algorithm to find a maximum 2-packing set in a cactus"*. **2018**. *Available at*: [**Theoretical Computer Science**](https://www.sciencedirect.com/science/article/pii/S0304397517308605)
+          **Alejandro Flores-Lamas**, José Alberto Fernández-Zepeda and Joel Antonio Trejo-Sánchez. *"Algorithm to find a maximum $2$-packing set in a cactus"*. **2018**. *Available at*: [**Theoretical Computer Science**](https://www.sciencedirect.com/science/article/pii/S0304397517308605)
     # ----------------------------#
     # >>> E X T R A   I N F O <<< #
     # ----------------------------#
@@ -337,3 +334,5 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+markdown: kramdown
