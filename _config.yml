@@ -282,6 +282,25 @@ content:
         title: Journal
         description: | # this will include new lines to allow paragraphs
           **Alejandro Flores-Lamas**, José Alberto Fernández-Zepeda and Joel Antonio Trejo-Sánchez. *"Algorithm to find a maximum $2$-packing set in a cactus"*. **2018**. *Available at*: [**Theoretical Computer Science**](https://www.sciencedirect.com/science/article/pii/S0304397517308605)
+
+
+    # ---------------------------------------------------- #
+    # >>> C O N F E R E N C E S  &   W O R K S H O P S <<< #
+    # ---------------------------------------------------- #
+    
+  - title: Conferences & Workshops
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      I am on the Program Committee of the following workshop. Please consider a submission!
+      
+      <br />
+      - **Encuentro Nacional de Computación 2023 (ENC 2023)** 
+        - [1$^{\text{er}}$ Taller en Cómputo Evolutivo en Aplicaciones Prácticas de Ingeniería (CEAPI)](https://www.hyper-heuristics.com/events/ceapi-enc2023/), Mexico
+
+
+
+
+
     # ----------------------------#
     # >>> E X T R A   I N F O <<< #
     # ----------------------------#
