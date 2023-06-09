@@ -182,6 +182,22 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: SkillTree
+        link: https://github.com/alexfloreslamas/SkillTree#readme
+        # link_text: https://github.com/alexfloreslamas/SkillTree
+        additional_links:
+          - title:  SkillTree
+            icon: fab fa-github
+            url: https://github.com/alexfloreslamas/SkillTree
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is ...
+        description: | # this will include new lines to allow paragraphs
+          *A simple **Skill tree** diagram creator.* Generated in [Python 3.10](https://www.python.org/) and visualised thanks to the Python module [Pyvis](https://pyvis.readthedocs.io/en/latest/).
+
+      - layout: top-middle
         title: A dynamic programming algorithm for a maximum $s$-clique set on trees
         link: https://alexfloreslamas.github.io/maximum-s-clique-set-on-trees.io/
         # link_text: https://alexfloreslamas.github.io/maximum-s-clique-set-on-trees.io/
