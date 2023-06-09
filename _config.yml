@@ -50,7 +50,15 @@ orcid_username: 0000-0002-9637-2049
 about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hello, I'm Alejandro, a PhD in Computer Science. My research focuses on analysing and designing <mark>algorithms for graphs</mark>, with a recent interest in<mark>approximation algorithms</mark> and <mark>parameterised complexity</mark>. I am also involved in studying <mark>string constraint algorithms</mark>.
+  Hello, I'm Alejandro, a PhD in Computer Science. My research focuses on analysing and designing <mark>algorithms for graphs</mark>, with a recent interest in <mark>approximation algorithms</mark> and <mark>parameterised complexity</mark>. I am also involved in studying <mark>string constraint algorithms</mark>.
+  
+  - Passionate about: 
+    - algorithms 
+    - cultures
+    - languages
+
+  - You can also take a look at my [skills tree.](./pages/skill_tree.html)
+  
 
 content:
     # --------------------------#
@@ -308,7 +316,7 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      <img src="./images/location.png"  width="25" height="25"> *Mexico*
+      <img src="./images/pass.png"  width="17" height="25"> *Mexican*
       
 
       <img src="./images/languages.png"  width="25" height="25">
