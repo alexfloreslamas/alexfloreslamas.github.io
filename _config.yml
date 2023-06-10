@@ -57,6 +57,8 @@ about_content: | # this will include new lines to allow paragraphs
     - cultures
     - languages
 
+  - TLDR; [My short CV](./assets/myShortCV.pdf)
+
   - You can also take a look at my [skills tree.](./pages/skill_tree.html)
   
 
