@@ -56,6 +56,8 @@ about_content: | # this will include new lines to allow paragraphs
     - algorithms 
     - cultures
     - languages
+  
+  - Look at [my interactive CV](https://public.tableau.com/shared/MHBFT3WR3?:display_count=n&:origin=viz_share_link) in [Tableau](https://public.tableau.com/app/discover); hover over the icons, charts and text for additional information.
 
   - TLDR; [My short CV](./assets/myShortCV.pdf)
 
