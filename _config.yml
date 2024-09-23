@@ -364,7 +364,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Ignacio Garcia Labari, **Alejandro Flores Lamas**, Flavio E. Spetale, Pilar Bulacio and Elizabeth Tapia. *"Transformer-Based Refinement of Pseudoknot Predictions in RNA Secondary Structures"*. **2024**. *Presented at:* [RECOMB-CG 2024](http://recomb-cg.org/).
 
-        - layout: left
+      - layout: left
         # border: weak
         title: X-meeting
         # sub_title: Poster
