@@ -208,6 +208,22 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: PARLE, Path Analysis, Reconciliation, and Label Evaluation
+        link: https://pypi.org/project/parle/
+        # link_text: https://github.com/alexfloreslamas/SkillTree
+        additional_links:
+          - title:  PARLE
+            icon: fab fa-python
+            url: https://pypi.org/project/parle/
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is ...
+        description: | # this will include new lines to allow paragraphs
+          Co-developer of PARLE: This tool computes the path-label reconciliation (PLR) dissimilarity measure. [see abstract](https://gitlab.com/jarr.tecn/recondist).
+
+      - layout: top-middle
         title: SkillTree
         link: https://github.com/alexfloreslamas/SkillTree#readme
         # link_text: https://github.com/alexfloreslamas/SkillTree
@@ -279,41 +295,58 @@ content:
         # quote: >
         #   item
         description: | # this will include new lines to allow paragraphs
-          José Alberto Fernández-Zepeda, **Alejandro Flores-Lamas**, Tadeo Alán Gutiérrez-Medina and Joel Antonio Trejo-Sánchez. *"A simple algorithm for decomposing geometric Halin graphs"*.  **2024**. *In preparation, to be submitted to*: [**Journal of Parallel and Distributed Computing.**](https://www.sciencedirect.com/journal/journal-of-parallel-and-distributed-computing)
-
-      - layout: left
-        title: Congress
-        sub_title: Accepted
-        description: | # this will include new lines to allow paragraphs
-          Ignacio Garcia Labari, **Alejandro Flores Lamas**, Flavio E. Spetale, Pilar Bulacio and Elizabeth Tapia. *"Transformer-Based Refinement of Pseudoknot Predictions in RNA Secondary Structures"*.  **2024**. *Accepted at*: [**IEEE Biennial Congress of Argentina (ARGENCON)**](https://attend.ieee.org/argencon-2024/articulos/).
-      
-      - layout: left
-        title: Proceedings
-        sub_title: Accepted
-        description: | # this will include new lines to allow paragraphs
-          Alitzel López Sánchez, José Antonio Ramírez-Rafael, **Alejandro Flores-Lamas**, Maribel Hernández-Rosales and Manuel Lafond. *"The Path-Label Reconciliation (PLR) Dissimilarity Measure for Gene Trees"*.  **2024**. *Accepted at*: [**WABI 2024**](https://algo-conference.org/2024/wabi/). *Available at*: [**arXiv**](https://arxiv.org/abs/2407.06367).
-      
-      # - layout: left
-        # border: weak
-        # title: Brief announcement
-        # sub_title: Submitted
-        # caption: item
-        # link: item
-        # quote: >
-        #   item
-        # description: | # this will include new lines to allow paragraphs
-          # José Alberto Fernández-Zepeda, **Alejandro Flores-Lamas**, Candelaria E. Sansores-Pérez and Joel Antonio Trejo-Sánchez. *"Distributed approximation algorithm for the hub cover problem"*.  **2023**. *Submitted to:* [**The International Symposium on Distributed Computing (DISC).**](http://www.disc-conference.org/wp/disc2023/)
+          Garcia Labari Ignacio, **Flores Lamas Alejandro**, Spetale Flavio E., Bulacio Pilar and Tapia Elizabeth. *"ClaraFold Model: Transformer-Based Refinement of Pseudoknot Predictions in RNA Secondary Structures"*.  **2025**. *In preparation, to be submitted to*: [**Bioinformatics - Oxford Academic.**](https://academic.oup.com/bioinformatics)
 
       - layout: left
         # border: weak
         title: Journal
-        sub_title: Submitted
+        sub_title: In preparation
+        # caption: item
+        # link: item
+        # quote: >
+        #   item
+        description: | # this will include new lines to allow paragraphs
+          José Alberto Fernández-Zepeda, **Alejandro Flores-Lamas**, Tadeo Alán Gutiérrez-Medina and Joel Antonio Trejo-Sánchez. *"A simple algorithm for decomposing geometric Halin graphs"*.  **2025**. *In preparation, to be submitted to*: [**Journal of Parallel and Distributed Computing.**](https://www.sciencedirect.com/journal/journal-of-parallel-and-distributed-computing)
+
+      - layout: left
+        # border: weak
+        title: Journal
+        sub_title: In preparation
+        # caption: item
+        # link: item
+        # quote: >
+        #   item
+        description: | # this will include new lines to allow paragraphs
+          **Alejandro Flores Lamas** and Maribel Hernández Rosales. *"A Comprehensive Review of Phylogenetic Reconciliation: Methods, Algorithms, and Complexity Analysis"*.  **2025**. *In preparation, to be submitted to*: [**PLOS Computational Biology.**](https://journals.plos.org/ploscompbiol/)
+      
+      - layout: left
+        title: Journal
+        sub_title: Submitted, under review
+        description: | # this will include new lines to allow paragraphs
+          Alitzel López Sánchez, José Antonio Ramírez-Rafael, **Alejandro Flores-Lamas**, Maribel Hernández-Rosales and Manuel Lafond. *"The Path-Label Reconciliation (PLR) Dissimilarity Measure for Gene Trees"*.  **2024**. *Submitted to*: [**Algorithms for Molecular Biology**](https://almob.biomedcentral.com/).
+      
+      - layout: left
+        # border: weak
+        title: Journal
+        sub_title: Submitted, under review
         # caption: item
         # link: item
         # quote: >
         #   item
         description: | # this will include new lines to allow paragraphs
           José Alberto Fernández-Zepeda, **Alejandro Flores-Lamas**, Matthew Hague and Joel Antonio Trejo-Sánchez. *"A dynamic programming algorithm for a maximum $s$-club set on trees*. **2023**$\rightarrow$**2024**. *Submitted to:* [**Discrete Applied Mathematics.**](https://www.sciencedirect.com/journal/discrete-applied-mathematics), *transferred to:* [**The European Journal of Operational Research (EJOR).**](https://www.sciencedirect.com/journal/european-journal-of-operational-research)
+
+      - layout: left
+        title: Proceedings
+        sub_title:
+        description: | # this will include new lines to allow paragraphs
+          Ignacio Garcia Labari, **Alejandro Flores Lamas**, Flavio E. Spetale, Pilar Bulacio and Elizabeth Tapia. *"Transformer-Based Refinement of Pseudoknot Predictions in RNA Secondary Structures"*.  **2024**. *Available at*: [**IEEE Biennial Congress of Argentina (ARGENCON)**](https://ieeexplore.ieee.org/abstract/document/10735904).
+      
+      - layout: left
+        title: Proceedings
+        sub_title:
+        description: | # this will include new lines to allow paragraphs
+          Alitzel López Sánchez, José Antonio Ramírez-Rafael, **Alejandro Flores-Lamas**, Maribel Hernández-Rosales and Manuel Lafond. *"The Path-Label Reconciliation (PLR) Dissimilarity Measure for Gene Trees"*.  **2024**. *Available at*: [**24th International Workshop on Algorithms in Bioinformatics (WABI 2024)**](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.WABI.2024.20). *Also available at*: [**arXiv**](https://arxiv.org/abs/2407.06367).
       
       - layout: left
         title: Journal
@@ -388,7 +421,9 @@ content:
       - **Encuentro Nacional de Computación 2023 (ENC 2023)** 
         - [1$^{\text{er}}$ Taller en Cómputo Evolutivo en Aplicaciones Prácticas de Ingeniería (CEAPI)](https://www.hyper-heuristics.com/events/ceapi-enc2023/), Mexico
       - **50ª Conferencia Latinoamericana de Informática (L CLEI 2024), Latin American Computing Conference** 
-        - [Intelligent Systems Track at CLEI](https://conferencia2024.clei.org/inicio/tracks/si/), Mexico
+        - [Intelligent Systems Track at CLEI](https://conferencia2024.clei.org/inicio/tracks/si/)
+      - **Thirteenth International Conference on Complex Networks & Their Applications** 
+        - [Complex Networks 2024](https://complexnetworks.org/), Sub-reviewer.
 
 
 
