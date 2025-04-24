@@ -118,10 +118,10 @@ content:
         description: | # this will include new lines to allow paragraphs
           The University of Belize allowed me to experience, for the first time, an international and multicultural environment with a rich cultural exchange. This exposure broadened my understanding of the world and equipped me with skills to navigate and overcome language and communication barriers.
 
-    # ----------------------------#
-    # >>> E X P E R I E N C E <<< #
-    # ----------------------------#
-  - title: Experience # Title for the section
+    # ----------------------------------------------#
+    # >>> A C A D E M I C   E M P L O Y M E N T <<< #
+    # ----------------------------------------------#
+  - title: Academic employment # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -183,24 +183,158 @@ content:
           - *Project:* An algorithm to find a maximum $2$-packing set in a cactus graph (translated from Spanish)
           - *Supported by:* CONACYT, National Scholarship for master’s studies, Mexico
 
+    # --------------------------------#
+    # >>> P U B L I C A T I O N S <<< #
+    # --------------------------------#
+
+  # --------------------------------------------------------------------------
+  - title: Competitions # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
       - layout: left
-        title: Teaching and mentoring
-        sub_title: Undergraduate and Masters' level
+        # border: weak
+        title: SMT-COMP
+        sub_title: 2023
+        # caption: item
+        # link: item
+        # quote: >
+        #   item
         description: | # this will include new lines to allow paragraphs
-          - <mark>2024-</mark> Cinvestav Research Center (online co-teaching). Mexico.
-          - <mark>2021-2022</mark> Royal Holloway, University of London. United Kingdom.
-          - <mark>2022-2022</mark> CICESE Research Center (online co-teaching). Mexico.
-          - <mark>2016-2019</mark> CICESE Research Center. Mexico.
-          - <mark>2010-2012</mark> CASE-UAZ. The Student Learning Services Center, The Autonomous University of Zacatecas, Mexico.
-        
+          Taolue Chen, Riccardo De Masellis, **Alejandro Flores-Lamas**, Matthew Hague, Zhilei Han, Denghang Hu, Anthony W. Lin, Oliver Markgraf, Philipp Rümmer and Zhilin Wu. "The OSTRICH String Solver". **2023**. *Available at*: [**The 18th International Satisfiability Modulo Theories Competition**](https://smt-comp.github.io/2023/participants/ostrich).
+  
+  # --------------------------------------------------------------------------
+  - title: Publications in journals and proceedings # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
       - layout: left
-        title: Mentoring
-        sub_title: Sixth Form/High School level
+        title: Proceedings
+        sub_title:
         description: | # this will include new lines to allow paragraphs
-          - <mark>2024-2024</mark> Cinvestav Research Center (CECyTEG, visiting students). Mexico.
-          - <mark>2024-2024</mark> Cinvestav Research Center (CIMAT, visiting students). Mexico.
+          Ignacio Garcia Labari, **Alejandro Flores Lamas**, Flavio E. Spetale, Pilar Bulacio and Elizabeth Tapia. *"Transformer-Based Refinement of Pseudoknot Predictions in RNA Secondary Structures"*.  **2024**. *Available at*: [**IEEE Biennial Congress of Argentina (ARGENCON)**](https://ieeexplore.ieee.org/abstract/document/10735904).
+
+      - layout: left
+        title: Proceedings
+        sub_title:
+        description: | # this will include new lines to allow paragraphs
+          Alitzel López Sánchez, José Antonio Ramírez-Rafael, **Alejandro Flores-Lamas**, Maribel Hernández-Rosales and Manuel Lafond. *"The Path-Label Reconciliation (PLR) Dissimilarity Measure for Gene Trees"*.  **2024**. *Available at*: [**24th International Workshop on Algorithms in Bioinformatics (WABI 2024)**](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.WABI.2024.20). *Also available at*: [**arXiv**](https://arxiv.org/abs/2407.06367).
+
+      - layout: left
+        title: Journal
+        description: | # this will include new lines to allow paragraphs
+          Joel Antonio Trejo-Sánchez, Francisco A. Madera-Ramírez, José Alberto Fernández-Zepeda, José Luis López-Martínez and **Alejandro Flores-Lamas** . *"A fast approximation algorithm for the maximum $2$-packing set problem on planar graphs"*.  **2022**. *Available at*: [**Optimization Letters**](https://link.springer.com/article/10.1007/s11590-022-01939-w)
+
+      - layout: left
+        title: Proceedings
+        description: | # this will include new lines to allow paragraphs
+          Taolue Chen, **Alejandro Flores-Lamas**, Matthew Hague, Zhilei Han, Denghang Hu, Shuanglong Kan, Anthony W. Lin, Philipp Rümmer and Zhilin Wu. *"Solving string constraints with Regex-dependent functions through transducers with priorities and variables"*.  **2022**. *Available at*: [**Proceedings of the ACM on Programming Languages Vol. 6, Issue. POPL**](https://dl.acm.org/doi/abs/10.1145/3498707)
+
+      - layout: left
+        title: Journal
+        description: | # this will include new lines to allow paragraphs
+          **Alejandro Flores-Lamas**, José Alberto Fernández-Zepeda and Joel Antonio Trejo-Sánchez. *"A distributed algorithm for a maximal $2$-packing set on Halin graphs"*.  **2020**. *Available at*: [**Journal of Parallel and Distributed Computing**](https://www.sciencedirect.com/science/article/abs/pii/S0743731519304459)
+
+      - layout: left
+        title: Proceedings
+        description: | # this will include new lines to allow paragraphs
+          Joel Antonio Trejo-Sánchez, Andrés Vela-Navarro, **Alejandro Flores-Lamas**, José Luis López-Martínez, Carlos Bermejo-Sabbagh and Nora Leticia Cuevas-Cuevas. *"Fast random cactus generation"*. **2018**. *Available at*: [**International Conference on Supercomputing in Mexico, ISUM 2018**](https://link.springer.com/chapter/10.1007/978-3-030-10448-1_12)
+
+      - layout: left
+        title: Journal
+        description: | # this will include new lines to allow paragraphs
+          **Alejandro Flores-Lamas**, José Alberto Fernández-Zepeda and Joel Antonio Trejo-Sánchez. *"Algorithm to find a maximum $2$-packing set in a cactus"*. **2018**. *Available at*: [**Theoretical Computer Science**](https://www.sciencedirect.com/science/article/pii/S0304397517308605)
+
+  # --------------------------------------------------------------------------
+  - title: Work in progress # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        # border: weak
+        title: Journal
+        sub_title: Submitted, under review
+        # caption: item
+        # link: item
+        # quote: >
+        #   item
+        description: | # this will include new lines to allow paragraphs
+          José Alberto Fernández-Zepeda, **Alejandro Flores-Lamas**, Matthew Hague and Joel Antonio Trejo-Sánchez. *"A dynamic programming algorithm for a maximum $s$-club set on trees*. **2024**. *Submitted to:* [**Discrete Applied Mathematics**](https://www.sciencedirect.com/journal/discrete-applied-mathematics), *transferred to:* [**The European Journal of Operational Research (EJOR).**](https://www.sciencedirect.com/journal/european-journal-of-operational-research)
+
+      - layout: left
+        title: Journal
+        sub_title: Submitted, under review
+        description: | # this will include new lines to allow paragraphs
+          Alitzel López Sánchez, José Antonio Ramírez-Rafael, **Alejandro Flores-Lamas**, Maribel Hernández-Rosales and Manuel Lafond. *"The Path-Label Reconciliation (PLR) Dissimilarity Measure for Gene Trees"*.  **2024**. *Submitted to*: [**Algorithms for Molecular Biology**](https://almob.biomedcentral.com/).
+      
+      - layout: left
+        # border: weak
+        title: Journal
+        sub_title: Submitted, under review
+        # caption: item
+        # link: item
+        # quote: >
+        #   item
+        description: | # this will include new lines to allow paragraphs
+          Garcia Labari Ignacio, **Flores-Lamas Alejandro**, Spetale Flavio, Bulacio Pilar and Tapia Elizabeth. "ClaraFold: Prediction of RNA secondary structures including pseudoknots using Transformers".  **2025**. *Submitted to*: [**Scientific Reports - Springer Nature.**](https://www.nature.com/srep/)
+
+      - layout: left
+        # border: weak
+        title: Journal
+        sub_title: In preparation
+        # caption: item
+        # link: item
+        # quote: >
+        #   item
+        description: | # this will include new lines to allow paragraphs
+          José Alberto Fernández-Zepeda, **Alejandro Flores-Lamas**, Tadeo Alán Gutiérrez-Medina and Joel Antonio Trejo-Sánchez. *"A simple algorithm for decomposing geometric Halin graphs"*.  **2025**. *In preparation, to be submitted to*: [**Journal of Parallel and Distributed Computing.**](https://www.sciencedirect.com/journal/journal-of-parallel-and-distributed-computing)
+
+    # ----------------------#
+    # >>> P O S T E R S <<< #
+    # ----------------------#
     
+  - title: Posters # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        # border: weak
+        title: RECOMB-CG
+        sub_title: 2024
+        # sub_title: Poster
+        # caption: item
+        # link: item
+        # quote: >
+        #   item
+        description: | # this will include new lines to allow paragraphs
+          Ignacio Garcia Labari, **Alejandro Flores Lamas**, Flavio E. Spetale, Pilar Bulacio and Elizabeth Tapia. *"Transformer-Based Refinement of Pseudoknot Predictions in RNA Secondary Structures"*. **2024**. *Presented at:* [RECOMB-CG 2024](http://recomb-cg.org/).
+
+      - layout: left
+        # border: weak
+        title: X-meeting
+        sub_title: 2024
+        # caption: item
+        # link: item
+        # quote: >
+        #   item
+        description: | # this will include new lines to allow paragraphs
+          Ignacio Garcia Labari, **Alejandro Flores Lamas**, Flavio E. Spetale, Pilar Bulacio and Elizabeth Tapia. *"Transformer-Based Refinement of Pseudoknot Predictions in RNA Secondary Structures"*. **2024**. *Presented at:* [20º Congresso Brasileiro de Bioinformática: X-Meeting 2024](https://www.even3.com.br/xmeeting-2024/).
     
+    # ---------------------------------------------------- #
+    # >>> C O N F E R E N C E S  &   W O R K S H O P S <<< #
+    # ---------------------------------------------------- #
+    
+  - title: Service
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      I am/was on the Program Committee of the following workshops. Please consider a submission!
+      
+      <br />
+      - **2025** - *51ª Conferencia Latinoamericana de Informática (CLEI 2025), Latin American Informatics Conference* 
+        - [Intelligent Systems Track at CLEI](https://conferencia2025.clei.org/)
+      - **2024** - *Thirteenth International Conference on Complex Networks & Their Applications*
+        - [Complex Networks 2024](https://complexnetworks.org/), Sub-reviewer.
+      - **2024** - *50ª Conferencia Latinoamericana de Informática (L CLEI 2024), Latin American Informatics Conference* 
+        - [Intelligent Systems Track at CLEI](https://conferencia2024.clei.org/inicio/tracks/si/)
+      - **2023** - *Encuentro Nacional de Computación 2023 (ENC 2023)* 
+        - [1$^{\text{er}}$ Taller en Cómputo Evolutivo en Aplicaciones Prácticas de Ingeniería (CEAPI)](https://www.hyper-heuristics.com/events/ceapi-enc2023/), Mexico
+      
     # --------------------------------------------#
     # >>> P R O J E C T S  &  M A T E R I A L <<< #
     # --------------------------------------------#
@@ -276,155 +410,6 @@ content:
         link: https://biblioteca.cicese.mx/
         description: | # this will include new lines to allow paragraphs
           I was also briefly involved in creating CICESE's $\LaTeX$ thesis template. See CICESE's [library webpage](https://biblioteca.cicese.mx/) and the README_Plantilla.txt file for more information.
-          
-          
-    
-    # --------------------------------#
-    # >>> P U B L I C A T I O N S <<< #
-    # --------------------------------#
-    
-  - title: Publications # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        # border: weak
-        title: Journal
-        sub_title: In preparation
-        # caption: item
-        # link: item
-        # quote: >
-        #   item
-        description: | # this will include new lines to allow paragraphs
-          Garcia Labari Ignacio, **Flores Lamas Alejandro**, Spetale Flavio E., Bulacio Pilar and Tapia Elizabeth. *"ClaraFold Model: Transformer-Based Refinement of Pseudoknot Predictions in RNA Secondary Structures"*.  **2025**. *In preparation, to be submitted to*: [**Bioinformatics - Oxford Academic.**](https://academic.oup.com/bioinformatics)
-
-      - layout: left
-        # border: weak
-        title: Journal
-        sub_title: In preparation
-        # caption: item
-        # link: item
-        # quote: >
-        #   item
-        description: | # this will include new lines to allow paragraphs
-          José Alberto Fernández-Zepeda, **Alejandro Flores-Lamas**, Tadeo Alán Gutiérrez-Medina and Joel Antonio Trejo-Sánchez. *"A simple algorithm for decomposing geometric Halin graphs"*.  **2025**. *In preparation, to be submitted to*: [**Journal of Parallel and Distributed Computing.**](https://www.sciencedirect.com/journal/journal-of-parallel-and-distributed-computing)
-
-      - layout: left
-        # border: weak
-        title: Journal
-        sub_title: In preparation
-        # caption: item
-        # link: item
-        # quote: >
-        #   item
-        description: | # this will include new lines to allow paragraphs
-          **Alejandro Flores Lamas** and Maribel Hernández Rosales. *"A Comprehensive Review of Phylogenetic Reconciliation: Methods, Algorithms, and Complexity Analysis"*.  **2025**. *In preparation, to be submitted to*: [**PLOS Computational Biology.**](https://journals.plos.org/ploscompbiol/)
-      
-      - layout: left
-        title: Journal
-        sub_title: Submitted, under review
-        description: | # this will include new lines to allow paragraphs
-          Alitzel López Sánchez, José Antonio Ramírez-Rafael, **Alejandro Flores-Lamas**, Maribel Hernández-Rosales and Manuel Lafond. *"The Path-Label Reconciliation (PLR) Dissimilarity Measure for Gene Trees"*.  **2024**. *Submitted to*: [**Algorithms for Molecular Biology**](https://almob.biomedcentral.com/).
-      
-      - layout: left
-        # border: weak
-        title: Journal
-        sub_title: Submitted, under review
-        # caption: item
-        # link: item
-        # quote: >
-        #   item
-        description: | # this will include new lines to allow paragraphs
-          José Alberto Fernández-Zepeda, **Alejandro Flores-Lamas**, Matthew Hague and Joel Antonio Trejo-Sánchez. *"A dynamic programming algorithm for a maximum $s$-club set on trees*. **2023**$\rightarrow$**2024**. *Submitted to:* [**Discrete Applied Mathematics.**](https://www.sciencedirect.com/journal/discrete-applied-mathematics), *transferred to:* [**The European Journal of Operational Research (EJOR).**](https://www.sciencedirect.com/journal/european-journal-of-operational-research)
-
-      - layout: left
-        title: Proceedings
-        sub_title:
-        description: | # this will include new lines to allow paragraphs
-          Ignacio Garcia Labari, **Alejandro Flores Lamas**, Flavio E. Spetale, Pilar Bulacio and Elizabeth Tapia. *"Transformer-Based Refinement of Pseudoknot Predictions in RNA Secondary Structures"*.  **2024**. *Available at*: [**IEEE Biennial Congress of Argentina (ARGENCON)**](https://ieeexplore.ieee.org/abstract/document/10735904).
-      
-      - layout: left
-        title: Proceedings
-        sub_title:
-        description: | # this will include new lines to allow paragraphs
-          Alitzel López Sánchez, José Antonio Ramírez-Rafael, **Alejandro Flores-Lamas**, Maribel Hernández-Rosales and Manuel Lafond. *"The Path-Label Reconciliation (PLR) Dissimilarity Measure for Gene Trees"*.  **2024**. *Available at*: [**24th International Workshop on Algorithms in Bioinformatics (WABI 2024)**](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.WABI.2024.20). *Also available at*: [**arXiv**](https://arxiv.org/abs/2407.06367).
-      
-      - layout: left
-        title: Journal
-        description: | # this will include new lines to allow paragraphs
-          Joel Antonio Trejo-Sánchez, Francisco A. Madera-Ramírez, José Alberto Fernández-Zepeda, José Luis López-Martínez and **Alejandro Flores-Lamas** . *"A fast approximation algorithm for the maximum $2$-packing set problem on planar graphs"*.  **2022**. *Available at*: [**Optimization Letters**](https://link.springer.com/article/10.1007/s11590-022-01939-w)
-
-      - layout: left
-        title: Proceedings
-        description: | # this will include new lines to allow paragraphs
-          Taolue Chen, **Alejandro Flores-Lamas**, Matthew Hague, Zhilei Han, Denghang Hu, Shuanglong Kan, Anthony W. Lin, Philipp Rümmer and Zhilin Wu. *"Solving string constraints with Regex-dependent functions through transducers with priorities and variables"*.  **2022**. *Available at*: [**Proceedings of the ACM on Programming Languages Vol. 6, Issue. POPL**](https://dl.acm.org/doi/abs/10.1145/3498707)
-
-      - layout: left
-        title: Journal
-        description: | # this will include new lines to allow paragraphs
-          **Alejandro Flores-Lamas**, José Alberto Fernández-Zepeda and Joel Antonio Trejo-Sánchez. *"A distributed algorithm for a maximal $2$-packing set on Halin graphs"*.  **2020**. *Available at*: [**Journal of Parallel and Distributed Computing**](https://www.sciencedirect.com/science/article/abs/pii/S0743731519304459)
-
-      - layout: left
-        title: Doctoral thesis
-        description: | # this will include new lines to allow paragraphs
-          **Alejandro Flores-Lamas**. *"Estudio de factibilidad para resolver el problema $2$-packing máximo en tiempo polinomial en grafos outerplanares"* (*"Feasibility study to solve the maximum $2$-packing problem in polynomial time in outerplanar graphs"*, translated from Spanish), Doctoral dissertation.  **2018**. *Available at*: [**Biblioteca CICESE**, in Spanish.](https://biblioteca.cicese.mx/catalogo/tesis/ficha.php?id=25279)]
-      
-      - layout: left
-        title: Proceedings
-        description: | # this will include new lines to allow paragraphs
-          Joel Antonio Trejo-Sánchez, Andrés Vela-Navarro, **Alejandro Flores-Lamas**, José Luis López-Martínez, Carlos Bermejo-Sabbagh and Nora Leticia Cuevas-Cuevas. *"Fast random cactus generation"*. **2018**. *Available at*: [**International Conference on Supercomputing in Mexico, ISUM 2018**](https://link.springer.com/chapter/10.1007/978-3-030-10448-1_12)
-
-      - layout: left
-        title: Journal
-        description: | # this will include new lines to allow paragraphs
-          **Alejandro Flores-Lamas**, José Alberto Fernández-Zepeda and Joel Antonio Trejo-Sánchez. *"Algorithm to find a maximum $2$-packing set in a cactus"*. **2018**. *Available at*: [**Theoretical Computer Science**](https://www.sciencedirect.com/science/article/pii/S0304397517308605)
-
-
-    # ----------------------#
-    # >>> P O S T E R S <<< #
-    # ----------------------#
-    
-  - title: Posters # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        # border: weak
-        title: RECOMB-CG 2024
-        # sub_title: Poster
-        # caption: item
-        # link: item
-        # quote: >
-        #   item
-        description: | # this will include new lines to allow paragraphs
-          Ignacio Garcia Labari, **Alejandro Flores Lamas**, Flavio E. Spetale, Pilar Bulacio and Elizabeth Tapia. *"Transformer-Based Refinement of Pseudoknot Predictions in RNA Secondary Structures"*. **2024**. *Presented at:* [RECOMB-CG 2024](http://recomb-cg.org/).
-
-      - layout: left
-        # border: weak
-        title: X-meeting
-        # sub_title: Poster
-        # caption: item
-        # link: item
-        # quote: >
-        #   item
-        description: | # this will include new lines to allow paragraphs
-          Ignacio Garcia Labari, **Alejandro Flores Lamas**, Flavio E. Spetale, Pilar Bulacio and Elizabeth Tapia. *"Transformer-Based Refinement of Pseudoknot Predictions in RNA Secondary Structures"*. **2024**. *Presented at:* [20º Congresso Brasileiro de Bioinformática: X-Meeting 2024](https://www.even3.com.br/xmeeting-2024/).
-    
-    # ---------------------------------------------------- #
-    # >>> C O N F E R E N C E S  &   W O R K S H O P S <<< #
-    # ---------------------------------------------------- #
-    
-  - title: Conferences & Workshops
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      I am/was on the Program Committee of the following workshop. Please consider a submission!
-      
-      <br />
-      - **Encuentro Nacional de Computación 2023 (ENC 2023)** 
-        - [1$^{\text{er}}$ Taller en Cómputo Evolutivo en Aplicaciones Prácticas de Ingeniería (CEAPI)](https://www.hyper-heuristics.com/events/ceapi-enc2023/), Mexico
-      - **50ª Conferencia Latinoamericana de Informática (L CLEI 2024), Latin American Computing Conference** 
-        - [Intelligent Systems Track at CLEI](https://conferencia2024.clei.org/inicio/tracks/si/)
-      - **Thirteenth International Conference on Complex Networks & Their Applications** 
-        - [Complex Networks 2024](https://complexnetworks.org/), Sub-reviewer.
-
 
 
 
@@ -439,21 +424,64 @@ content:
       <img src="./images/pass.png"  width="17" height="25"> *Mexican*
       
 
-      <img src="./images/languages.png"  width="25" height="25">
-      - *Spanish*, Mother tongue
-      - *English*, C1. IELTS, 01 Feb 2020
-      - *German* and *French*, Basic words and phrases only
-      - I am willing to put in the time and effort required to learn a new language. 
+      <img src="./images/languages.png" width="25" height="25">
+
+      <table style="width:100%; border-collapse: collapse;">
+        <tbody>
+          <tr>
+            <td style="width:25%; vertical-align: top;"><em>Spanish</em></td>
+            <td style="vertical-align: top;">Mother tongue</td>
+          </tr>
+          <tr>
+            <td style="width:25%; vertical-align: top;"><em>English</em></td>
+            <td style="vertical-align: top;">C1. IELTS, 01 Feb 2020</td>
+          </tr>
+          <tr>
+            <td style="width:25%; vertical-align: top;"><em>German</em> & <em>Italian</em></td>
+            <td style="vertical-align: top;">Basic words and phrases only</td>
+          </tr>
+          <tr>
+            <td style="width:25%; vertical-align: top;"><em>Learning goal</em></td>
+            <td style="vertical-align: top;">I am willing to put in the time and effort required to learn a new language.</td>
+          </tr>
+        </tbody>
+      </table>
       
 
-      <img src="./images/volunteer.png"  width="17" height="25"> In the past, I was actively involved in various volunteering endeavours:
-      - <mark>2016-2018</mark> CICESE Open Days
-      - <mark>2007-2012</mark> Zacatecas International Folklore Festival "Gustavo Vaquera Contreras"
-      - <mark>2009</mark> International year of astronomy
-      - <mark>2004, 2005, 2007</mark> Good Vision to Learn Better
-      - <mark>2004, 2005</mark> SEMARNAT, Secretariat of Environment and Natural Resources, Mexico
-      - <mark>2003-2005</mark> Zacatecas Food bank
-      - <mark>2005</mark> Zacatecas Street Theater Festival
+      <img src="./images/volunteer.png" width="17" height="25"> In the past, I was actively involved in various volunteering endeavours:
+
+      <table style="width:100%; border-collapse: collapse;">
+        <tbody>
+          <tr>
+            <td style="width:25%; vertical-align: top;">2016-2018</td>
+            <td style="vertical-align: top;">CICESE Open Days</td>
+          </tr>
+          <tr>
+            <td style="width:25%; vertical-align: top;">2007-2012</td>
+            <td style="vertical-align: top;">Zacatecas International Folklore Festival "Gustavo Vaquera Contreras"</td>
+          </tr>
+          <tr>
+            <td style="width:25%; vertical-align: top;">2009</td>
+            <td style="vertical-align: top;">International Year of Astronomy</td>
+          </tr>
+          <tr>
+            <td style="width:25%; vertical-align: top;">2004, 2005, 2007</td>
+            <td style="vertical-align: top;">Good Vision to Learn Better</td>
+          </tr>
+          <tr>
+            <td style="width:25%; vertical-align: top;">2004, 2005</td>
+            <td style="vertical-align: top;">SEMARNAT, Secretariat of Environment and Natural Resources, Mexico</td>
+          </tr>
+          <tr>
+            <td style="width:25%; vertical-align: top;">2003-2005</td>
+            <td style="vertical-align: top;">Zacatecas Food Bank</td>
+          </tr>
+          <tr>
+            <td style="width:25%; vertical-align: top;">2005</td>
+            <td style="vertical-align: top;">Zacatecas Street Theater Festival</td>
+          </tr>
+        </tbody>
+      </table>
 
     # Look at this cool image
     # ![Trees](./images/landscape-trees.jpg "Trees")
